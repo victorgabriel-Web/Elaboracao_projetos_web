@@ -46,3 +46,179 @@ font-size: 16px; /*tamanho da fonte do texto*/
     cursor: pointer;
 
 }
+
+.corpo {
+  
+  margin-top: 150px;
+}
+
+/*Inicio do CSS do Formulário de Cadastro-----------------------------------------*/
+body {
+  background-color: #f8f9fa;
+  padding-top: 300px;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #00bfff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #009acd;
+}
+
+.toggle-pass {
+  position: absolute;
+  top: 38px;
+  right: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+@media (max-width: 576px) {
+  .card {
+    padding: 20px;
+  }
+}
+
+
+/*Fim do CSS do Formulário de Cadastro-------------------------------------------------*/
+
+
+/*Inicio do CSS Tela de Login Gamer-----------------------------------*/
+
+/* Fundo geral */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Azul claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container principal */
+.login-container {
+  display: flex;
+  width: 750px;
+  height: 420px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Caixa de formulário */
+.form-box {
+  flex: 1;
+  background-color: #d9d9d9;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* Labels */
+.form-box label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Inputs */
+.form-box input {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 8px 0 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Link esqueceu a senha */
+
+/*Inicio do CSS Loja Gamer--------------------------------------*/
+
+/* Barra Superior */
+.topbar {
+  background: #0099ff;
+  padding: 5px;
+  color: #fff;
+  margin-bottom: 120px;
+}
+.search-box input {
+  border-radius: 20px;
+  border: none;
+  padding: 5px 10px;
+}
+
+/* Cards Produtos */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  max-height: 100px;
+  object-fit: contain;
+}
+.price {
+  font-weight: bold;
+  color: #0099ff;
+}
+
+/* Banner Gamer */
+.banner img {
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Menu Inferior */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #0099ff;
+  color: #fff;
+  padding: 5px 0;
+}
+.bottom-nav .nav-item {
+  font-size: 12px;
+}
+.bottom-nav i {
+  display: block;
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+  .card img {
+    max-height: 80px;
+  }
+  .price {
+    font-size: 14px;
+  }
+}
+/*Fim do CSS Loja Gamer-----------------------------------------*/
+
+/* Ajustes CSS para o carrossel de vídeo */
+#videoCarousel video {
+    max-height: 500px; /* Ajusta a altura máxima do vídeo */
+    object-fit: cover; /* Mantém o vídeo preenchendo o container sem distorção */
+}
+
+.mb-9{
+  margin-top: 120px;
+}
